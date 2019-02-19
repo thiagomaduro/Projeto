@@ -20,7 +20,6 @@ public class Expediente extends Funcionario {
 			return calculo1 *= 0.1;
 
 		case "assistente":
-			System.out.print("Assistente de Expediente recebe uma bonificação apenas de: ");
 			return 100;
 		default:
 			System.out.println("cargo errado. Verifique se digitou corretamente!");

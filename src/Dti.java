@@ -8,6 +8,8 @@ public class Dti extends Funcionario {
 		super.setSetor(setor);
 		super.setCargo(cargo);
 	}
+	String a = " ";
+	
 
 	@Override
 	public double getAumento() {
@@ -22,7 +24,6 @@ public class Dti extends Funcionario {
 			double calculo2 = super.getSalario();
 			return calculo2 *= 0.10;
 		case "estagiario":
-			System.out.print("o estagiário recebe uma bonificação de 80,00 no seu salário: ");
 			return 80;
 		default:
 			System.out.println("cargo errado. Verifique se digitou corretamente!");
